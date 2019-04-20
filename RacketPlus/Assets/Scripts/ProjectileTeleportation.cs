@@ -53,7 +53,7 @@ public class ProjectileTeleportation : MonoBehaviour
         {
             readyToTeleport = true;
         }
-        if (collision.gameObject.CompareTag("Floor") && readyToTeleport)
+        if (collision.gameObject.CompareTag("Ground") && readyToTeleport)
         {
             playerToTeleport.position = new Vector3(collision.GetContact(0).point.x, playerToTeleport.position.y, collision.GetContact(0).point.z);
             

@@ -1135,6 +1135,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5208233515268378132}
     m_Modifications:
+    - target: {fileID: 7526259269077917484, guid: e08bc4de9a27d4144b3f12c5d64c72d0,
+        type: 3}
+      propertyPath: m_Name
+      value: Tennis Ball Trigger
+      objectReference: {fileID: 0}
     - target: {fileID: 7248530473600743351, guid: e08bc4de9a27d4144b3f12c5d64c72d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1189,11 +1194,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7526259269077917484, guid: e08bc4de9a27d4144b3f12c5d64c72d0,
-        type: 3}
-      propertyPath: m_Name
-      value: Tennis Ball Trigger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e08bc4de9a27d4144b3f12c5d64c72d0, type: 3}
@@ -1426,13 +1426,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4867401201128014638}
     m_Modifications:
+    - target: {fileID: 100008, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Name
+      value: OVRPlayerController
+      objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.55
+      value: 1.82
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1469,10 +1473,6 @@ PrefabInstance:
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Name
-      value: OVRPlayerController
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
@@ -1647,6 +1647,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5208233515268378132}
     m_Modifications:
+    - target: {fileID: 7526259269077917484, guid: e08bc4de9a27d4144b3f12c5d64c72d0,
+        type: 3}
+      propertyPath: m_Name
+      value: Tennis Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 7526259269077917484, guid: e08bc4de9a27d4144b3f12c5d64c72d0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7248530473600743351, guid: e08bc4de9a27d4144b3f12c5d64c72d0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1700,16 +1710,6 @@ PrefabInstance:
     - target: {fileID: 7248530473600743351, guid: e08bc4de9a27d4144b3f12c5d64c72d0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7526259269077917484, guid: e08bc4de9a27d4144b3f12c5d64c72d0,
-        type: 3}
-      propertyPath: m_Name
-      value: Tennis Ball
-      objectReference: {fileID: 0}
-    - target: {fileID: 7526259269077917484, guid: e08bc4de9a27d4144b3f12c5d64c72d0,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1877,6 +1877,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5208233515268378132}
     m_Modifications:
+    - target: {fileID: 5921265696734593561, guid: ddd7e0e54eb7c9a469d0227749208af0,
+        type: 3}
+      propertyPath: m_Name
+      value: Puck Trigger
+      objectReference: {fileID: 0}
     - target: {fileID: 5090754889148670217, guid: ddd7e0e54eb7c9a469d0227749208af0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1932,11 +1937,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5921265696734593561, guid: ddd7e0e54eb7c9a469d0227749208af0,
-        type: 3}
-      propertyPath: m_Name
-      value: Puck Trigger
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddd7e0e54eb7c9a469d0227749208af0, type: 3}
 --- !u!4 &3097432190698393922 stripped
@@ -1952,6 +1952,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5208233515268378132}
     m_Modifications:
+    - target: {fileID: 5921265696734593561, guid: ddd7e0e54eb7c9a469d0227749208af0,
+        type: 3}
+      propertyPath: m_Name
+      value: Puck
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921265696734593561, guid: ddd7e0e54eb7c9a469d0227749208af0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5090754889148670217, guid: ddd7e0e54eb7c9a469d0227749208af0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2005,16 +2015,6 @@ PrefabInstance:
     - target: {fileID: 5090754889148670217, guid: ddd7e0e54eb7c9a469d0227749208af0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921265696734593561, guid: ddd7e0e54eb7c9a469d0227749208af0,
-        type: 3}
-      propertyPath: m_Name
-      value: Puck
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921265696734593561, guid: ddd7e0e54eb7c9a469d0227749208af0,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
